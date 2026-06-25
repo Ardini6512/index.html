@@ -1,0 +1,114 @@
+/* ===== GLOBAL ===== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f7e6dd, #db7093);
+    color: #556b2f;
+}
+
+/* ===== HEADER ===== */
+header {
+    text-align: center;
+    padding: 30px;
+    background-color: #c9a28a;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/* ===== SECTION ===== */
+section {
+    padding: 30px;
+}
+
+/* ===== CARD STYLE ===== */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* ===== MULTI CARDS ===== */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* ===== INDIVIDUAL CARD ===== */
+.cards .card,
+.job {
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    flex: 1;
+    min-width: 200px;
+}
+
+/* ===== IMAGE ===== */
+img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+img:hover {
+    transform: scale(1.03);
+}
+
+/* ===== HERO SECTION ===== */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.hero img {
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid #c9a28a;
+}
+
+/* ===== LINKS ===== */
+a {
+    color: #a86c52;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ===== AUDIO ===== */
+audio {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c9a28a;
+    color: white;
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
